@@ -5,6 +5,9 @@ Methodology:
 4. Brute force ftp login
 5. Get/put interesting files
 6. Local FTP Server
+
+
+
 1. ftp user@IP
 
 2. anonymous:anonymous,metasploit anon_login and nmap anonymous login scripts
