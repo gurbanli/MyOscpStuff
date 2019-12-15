@@ -21,7 +21,7 @@ gobuster dir -u http://example.com -w /usr/share/wordlists/dirbuster/directory-l
 ```
 
 > ##### Dirbuster
-![Dirbuster Example](..\Images\dirbuster.png)
+![Dirbuster Example](../Images/dirbuster.png)
 
 > ##### Dirb
 ```
