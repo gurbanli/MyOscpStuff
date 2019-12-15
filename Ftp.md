@@ -1,29 +1,35 @@
-Methodology:
+# FTP - Enumeration
+## Methodology
+
+```
 1. Check which ftp server used
 2. Check anonymous login
 3. Check whether Exploit exists compatible with version
 4. Brute force ftp login
 5. Get/put interesting files
-6. Local FTP Server
+```
 
-
-
-1. ftp user@IP
-
-2. anonymous:anonymous,metasploit anon_login and nmap anonymous login scripts
-
-3.
-NMAP  SCRIPTS - ls /usr/share/nmap/scripts/\* | grep ftp   -
+> ###### Anonymous Login
+```
+anonymous:anonymous
+metasploit module (anon_login)
+nmap script (ftp-anon)
+```
+> ###### Nmap Scripts
+```
+ls /usr/share/nmap/scripts/\* | grep ftp 
 nmap -sV -Pn -vv -p [PORT] --script=ftp-anon,ftp-bounce,ftp-libopie,ftp-proftpd-backdoor,ftp-vsftpd-backdoor,ftp-vuln-cve2010-4221
+```
 
-SEARCHSPLOIT
-Google
-
-4.
+> ###### Brute Force
+```
 hydra -t 1 -l admin -P /usr/share/wordlists/rockyou.txt -vV $ip ftp
 hydra -s [PORT] -C ./wordlists/ftp-default-userpass.txt -u -f [IP] ftp
 /usr/share/metasploit-framework/data/wordlists/unix_users.txt
 /usr/share/seclists/Usernames/names.txt
+
+```
+
 
 5.
 /etc/passwd
