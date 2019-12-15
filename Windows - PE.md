@@ -10,4 +10,4 @@
 
 [Windows-Privilege-Escalation-Guide](https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/)
 
-
+[PowerUp Guide](http://www.harmj0y.net/blog/powershell/powerup-a-usage-guide/)
