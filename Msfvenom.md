@@ -50,3 +50,21 @@ linux/x86/shell_reverse_tcp
 linux/x86/shell_bind_tcp
 linux/x86/exec
 ```
+> ##### Windows x64 Payloads
+```
+windows/x64/meterpreter/reverse_tcp
+windows/x64/meterpreter/bind_tcp
+windows/x64/meterpreter/reverse_https
+windows/x64/shell_reverse_tcp
+windows/x64/shell_bind_tcp
+windows/x64/exec
+```
+> ##### Windows x86 Payloads
+```
+windows/meterpreter_reverse_tcp
+windows/meterpreter_bind_tcp
+windows/meterpreter_reverse_https
+windows/shell_reverse_tcp
+windows/shell_bind_tcp
+windows/exec
+```
