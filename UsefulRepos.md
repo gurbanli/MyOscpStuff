@@ -7,6 +7,7 @@
 ##### Evil-WinRM
 ##### Ffuf
 ##### Impacket
+##### Invoke-Obfuscation
 ##### JAWS
 ##### Kernelpop
 ##### LinEnum
