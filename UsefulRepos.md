@@ -1,4 +1,5 @@
 ### Useful Tools and Repos for Exam
+##### Accesscheck
 ##### AutoRecon
 ##### BeRoot
 ##### CrackMapExec
@@ -20,7 +21,9 @@
 ##### NPS Payload
 ##### Odat
 ##### Oletools
+##### Procdump
 ##### Seclists
+##### Subinacl
 ##### Windows Exploit Suggester
 ##### Windows Kernel Exploits
 ##### Windows Privesc Check
