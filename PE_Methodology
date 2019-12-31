@@ -1,0 +1,24 @@
+Windows OS:
+1. Check Windows Version and Patches
+2. Use Powerup for common Configuration Vulnerabilities
+3. Check Program Files Directories
+4. Check User's Directory for finding stuff
+5. Check Powershell History and Common Hidden Files and Directories
+6. Use JAWS and analyze output
+7. Try to find passwords
+8. Use another common PE methods manually (https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md)
+9. Try Again and Harder
+
+Linux OS:
+1. Check Linux Version, Distro and Kernel
+2. Check SUDO,SUID and User groups and Builtin passwords. Reuse passwords
+3. Use LSE and LinEnum scripts and analyze output
+4. Check paths and files which User have additional access (from group permissions maybe).
+5. Traverse common paths and try to find odd things
+6. Run pspy
+7. Check running services and processes
+8. Check installed programs
+9. Use another common PE methods manually (https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md)
+10. Try Again and Harder
+
+
