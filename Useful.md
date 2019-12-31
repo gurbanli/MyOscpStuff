@@ -149,6 +149,13 @@ return 0;
 i686-w64-mingw32-gcc taskkill.c -o taskkill.exe
 ```
 
+##### Accesschk
+```
+accesschk.exe -uwcqv "Authenticated Users" * /accepteula
+accesschk.exe -qdws "Authenticated Users" C:\Windows\ /accepteula
+accesschk.exe -qdws Users C:\Windows\
+```
+
 
 
 
