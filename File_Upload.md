@@ -1,0 +1,9 @@
+https://www.owasp.org/index.php/Unrestricted_File_Upload
+https://soroush.secproject.com/blog/tag/unrestricted-file-upload/
+https://github.com/xMilkPowderx/OSCP/blob/master/File%20upload.md
+https://sushant747.gitbooks.io/total-oscp-guide/bypass_image_upload.html
+https://pentestlab.blog/2012/11/29/bypassing-file-upload-restrictions/
+https://medium.coacm/@satboy.fb/art-of-unrestricted-file-upload-exploitation-92ed28796d0
+https://null-byte.wonderhowto.com/how-to/bypass-file-upload-restrictions-using-burp-suite-0164148/
+https://offsec.vchur.dk/2019/02/23/bypassing-file-upload-restrictions/
+https://infosecaddicts.com/file-upload-vulnerability/
