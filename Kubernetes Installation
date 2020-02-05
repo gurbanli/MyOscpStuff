@@ -11,3 +11,5 @@ curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s http
 chmod +x ./kubectl
 sudo mv ./kubectl /usr/bin/kubectl
 kubectl version
+echo 'source <(kubectl completion bash)' >>~/.bashrc
+source ~/.bashrc
