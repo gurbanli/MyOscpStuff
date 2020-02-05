@@ -1,0 +1,13 @@
+Ubuntu 18.04.3 LTS
+
+sudo curl -sSL https://get.docker.com | sudo sh
+sudo usermod -aG docker $USER
+sudo su - $USER
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_1.6.2.deb \
+ && sudo dpkg -i minikube_1.6.2.deb
+sudo minikube start --vm-driver=none
+sudo chown -R $USER $HOME/.kube $HOME/.minikube
+curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+chmod +x ./kubectl
+sudo mv ./kubectl /usr/bin/kubectl
+kubectl version
